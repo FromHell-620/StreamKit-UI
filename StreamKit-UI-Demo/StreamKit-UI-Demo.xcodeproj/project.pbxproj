@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9FB33FC20DE0D0E007E32A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB33FB20DE0D0E007E32A4 /* AppDelegate.m */; };
+		C9FB33FF20DE0D0E007E32A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB33FE20DE0D0E007E32A4 /* ViewController.m */; };
+		C9FB340220DE0D0E007E32A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9FB340020DE0D0E007E32A4 /* Main.storyboard */; };
+		C9FB340420DE0D12007E32A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FB340320DE0D12007E32A4 /* Assets.xcassets */; };
+		C9FB340720DE0D12007E32A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9FB340520DE0D12007E32A4 /* LaunchScreen.storyboard */; };
+		C9FB340A20DE0D12007E32A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB340920DE0D12007E32A4 /* main.m */; };
+		C9FB342F20DE0D87007E32A4 /* UITextView+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB341220DE0D87007E32A4 /* UITextView+StreamKit.m */; };
+		C9FB343020DE0D87007E32A4 /* UIScrollView+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB341320DE0D87007E32A4 /* UIScrollView+StreamKit.m */; };
+		C9FB343120DE0D87007E32A4 /* UICollectionView+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB341420DE0D87007E32A4 /* UICollectionView+StreamKit.m */; };
+		C9FB343220DE0D87007E32A4 /* UITableView+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB341820DE0D87007E32A4 /* UITableView+StreamKit.m */; };
+		C9FB343520DE0D87007E32A4 /* UIImageView+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB342020DE0D87007E32A4 /* UIImageView+StreamKit.m */; };
+		C9FB343620DE0D87007E32A4 /* UIView+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB342320DE0D87007E32A4 /* UIView+StreamKit.m */; };
+		C9FB343720DE0D87007E32A4 /* UIButton+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB342420DE0D87007E32A4 /* UIButton+StreamKit.m */; };
+		C9FB343820DE0D87007E32A4 /* UITextField+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB342620DE0D87007E32A4 /* UITextField+StreamKit.m */; };
+		C9FB343A20DE0D87007E32A4 /* UILabel+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB342820DE0D87007E32A4 /* UILabel+StreamKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9FB33F720DE0D0E007E32A4 /* StreamKit-UI-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StreamKit-UI-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9FB33FA20DE0D0E007E32A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9FB33FB20DE0D0E007E32A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9FB33FD20DE0D0E007E32A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9FB33FE20DE0D0E007E32A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9FB340120DE0D0E007E32A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9FB340320DE0D12007E32A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9FB340620DE0D12007E32A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9FB340820DE0D12007E32A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9FB340920DE0D12007E32A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9FB341220DE0D87007E32A4 /* UITextView+StreamKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+StreamKit.m"; sourceTree = "<group>"; };
+		C9FB341320DE0D87007E32A4 /* UIScrollView+StreamKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+StreamKit.m"; sourceTree = "<group>"; };
+		C9FB341420DE0D87007E32A4 /* UICollectionView+StreamKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+StreamKit.m"; sourceTree = "<group>"; };
+		C9FB341520DE0D87007E32A4 /* UITableView+StreamKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+StreamKit.h"; sourceTree = "<group>"; };
+		C9FB341620DE0D87007E32A4 /* UIScrollView+StreamKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+StreamKit.h"; sourceTree = "<group>"; };
+		C9FB341720DE0D87007E32A4 /* UITextView+StreamKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+StreamKit.h"; sourceTree = "<group>"; };
+		C9FB341820DE0D87007E32A4 /* UITableView+StreamKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+StreamKit.m"; sourceTree = "<group>"; };
+		C9FB341920DE0D87007E32A4 /* UICollectionView+StreamKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+StreamKit.h"; sourceTree = "<group>"; };
+		C9FB341D20DE0D87007E32A4 /* UILabel+StreamKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+StreamKit.h"; sourceTree = "<group>"; };
+		C9FB341E20DE0D87007E32A4 /* UITextField+StreamKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+StreamKit.h"; sourceTree = "<group>"; };
+		C9FB342020DE0D87007E32A4 /* UIImageView+StreamKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+StreamKit.m"; sourceTree = "<group>"; };
+		C9FB342320DE0D87007E32A4 /* UIView+StreamKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+StreamKit.m"; sourceTree = "<group>"; };
+		C9FB342420DE0D87007E32A4 /* UIButton+StreamKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+StreamKit.m"; sourceTree = "<group>"; };
+		C9FB342620DE0D87007E32A4 /* UITextField+StreamKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+StreamKit.m"; sourceTree = "<group>"; };
+		C9FB342820DE0D87007E32A4 /* UILabel+StreamKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+StreamKit.m"; sourceTree = "<group>"; };
+		C9FB342B20DE0D87007E32A4 /* UIImageView+StreamKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+StreamKit.h"; sourceTree = "<group>"; };
+		C9FB342D20DE0D87007E32A4 /* UIButton+StreamKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+StreamKit.h"; sourceTree = "<group>"; };
+		C9FB342E20DE0D87007E32A4 /* UIView+StreamKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+StreamKit.h"; sourceTree = "<group>"; };
+		C9FB343D20DE0EEC007E32A4 /* StreamKit-UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StreamKit-UI.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9FB33F420DE0D0E007E32A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9FB33EE20DE0D0E007E32A4 = {
+			isa = PBXGroup;
+			children = (
+				C9FB33F920DE0D0E007E32A4 /* StreamKit-UI-Demo */,
+				C9FB33F820DE0D0E007E32A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9FB33F820DE0D0E007E32A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9FB33F720DE0D0E007E32A4 /* StreamKit-UI-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9FB33F920DE0D0E007E32A4 /* StreamKit-UI-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C9FB341020DE0D1C007E32A4 /* StreamKit-UI */,
+				C9FB33FA20DE0D0E007E32A4 /* AppDelegate.h */,
+				C9FB33FB20DE0D0E007E32A4 /* AppDelegate.m */,
+				C9FB33FD20DE0D0E007E32A4 /* ViewController.h */,
+				C9FB33FE20DE0D0E007E32A4 /* ViewController.m */,
+				C9FB340020DE0D0E007E32A4 /* Main.storyboard */,
+				C9FB340320DE0D12007E32A4 /* Assets.xcassets */,
+				C9FB340520DE0D12007E32A4 /* LaunchScreen.storyboard */,
+				C9FB340820DE0D12007E32A4 /* Info.plist */,
+				C9FB340920DE0D12007E32A4 /* main.m */,
+			);
+			path = "StreamKit-UI-Demo";
+			sourceTree = "<group>";
+		};
+		C9FB341020DE0D1C007E32A4 /* StreamKit-UI */ = {
+			isa = PBXGroup;
+			children = (
+				C9FB343D20DE0EEC007E32A4 /* StreamKit-UI.h */,
+				C9FB341120DE0D87007E32A4 /* UIScrollView */,
+				C9FB341A20DE0D87007E32A4 /* UIView */,
+			);
+			path = "StreamKit-UI";
+			sourceTree = "<group>";
+		};
+		C9FB341120DE0D87007E32A4 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C9FB341520DE0D87007E32A4 /* UITableView+StreamKit.h */,
+				C9FB341820DE0D87007E32A4 /* UITableView+StreamKit.m */,
+				C9FB341620DE0D87007E32A4 /* UIScrollView+StreamKit.h */,
+				C9FB341320DE0D87007E32A4 /* UIScrollView+StreamKit.m */,
+				C9FB341720DE0D87007E32A4 /* UITextView+StreamKit.h */,
+				C9FB341220DE0D87007E32A4 /* UITextView+StreamKit.m */,
+				C9FB341920DE0D87007E32A4 /* UICollectionView+StreamKit.h */,
+				C9FB341420DE0D87007E32A4 /* UICollectionView+StreamKit.m */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		C9FB341A20DE0D87007E32A4 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				C9FB342E20DE0D87007E32A4 /* UIView+StreamKit.h */,
+				C9FB342320DE0D87007E32A4 /* UIView+StreamKit.m */,
+				C9FB341D20DE0D87007E32A4 /* UILabel+StreamKit.h */,
+				C9FB342820DE0D87007E32A4 /* UILabel+StreamKit.m */,
+				C9FB342B20DE0D87007E32A4 /* UIImageView+StreamKit.h */,
+				C9FB342020DE0D87007E32A4 /* UIImageView+StreamKit.m */,
+				C9FB342D20DE0D87007E32A4 /* UIButton+StreamKit.h */,
+				C9FB342420DE0D87007E32A4 /* UIButton+StreamKit.m */,
+				C9FB341E20DE0D87007E32A4 /* UITextField+StreamKit.h */,
+				C9FB342620DE0D87007E32A4 /* UITextField+StreamKit.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9FB33F620DE0D0E007E32A4 /* StreamKit-UI-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9FB340D20DE0D12007E32A4 /* Build configuration list for PBXNativeTarget "StreamKit-UI-Demo" */;
+			buildPhases = (
+				C9FB33F320DE0D0E007E32A4 /* Sources */,
+				C9FB33F420DE0D0E007E32A4 /* Frameworks */,
+				C9FB33F520DE0D0E007E32A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StreamKit-UI-Demo";
+			productName = "StreamKit-UI-Demo";
+			productReference = C9FB33F720DE0D0E007E32A4 /* StreamKit-UI-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9FB33EF20DE0D0E007E32A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = GodL;
+				TargetAttributes = {
+					C9FB33F620DE0D0E007E32A4 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = C9FB33F220DE0D0E007E32A4 /* Build configuration list for PBXProject "StreamKit-UI-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9FB33EE20DE0D0E007E32A4;
+			productRefGroup = C9FB33F820DE0D0E007E32A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9FB33F620DE0D0E007E32A4 /* StreamKit-UI-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9FB33F520DE0D0E007E32A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FB340720DE0D12007E32A4 /* LaunchScreen.storyboard in Resources */,
+				C9FB340420DE0D12007E32A4 /* Assets.xcassets in Resources */,
+				C9FB340220DE0D0E007E32A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9FB33F320DE0D0E007E32A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FB343720DE0D87007E32A4 /* UIButton+StreamKit.m in Sources */,
+				C9FB33FF20DE0D0E007E32A4 /* ViewController.m in Sources */,
+				C9FB340A20DE0D12007E32A4 /* main.m in Sources */,
+				C9FB342F20DE0D87007E32A4 /* UITextView+StreamKit.m in Sources */,
+				C9FB343220DE0D87007E32A4 /* UITableView+StreamKit.m in Sources */,
+				C9FB33FC20DE0D0E007E32A4 /* AppDelegate.m in Sources */,
+				C9FB343A20DE0D87007E32A4 /* UILabel+StreamKit.m in Sources */,
+				C9FB343520DE0D87007E32A4 /* UIImageView+StreamKit.m in Sources */,
+				C9FB343020DE0D87007E32A4 /* UIScrollView+StreamKit.m in Sources */,
+				C9FB343120DE0D87007E32A4 /* UICollectionView+StreamKit.m in Sources */,
+				C9FB343820DE0D87007E32A4 /* UITextField+StreamKit.m in Sources */,
+				C9FB343620DE0D87007E32A4 /* UIView+StreamKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9FB340020DE0D0E007E32A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9FB340120DE0D0E007E32A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9FB340520DE0D12007E32A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9FB340620DE0D12007E32A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9FB340B20DE0D12007E32A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9FB340C20DE0D12007E32A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9FB340E20DE0D12007E32A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHF573YC2L;
+				INFOPLIST_FILE = "StreamKit-UI-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GodL.github.StreamKit-UI-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9FB340F20DE0D12007E32A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHF573YC2L;
+				INFOPLIST_FILE = "StreamKit-UI-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GodL.github.StreamKit-UI-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9FB33F220DE0D0E007E32A4 /* Build configuration list for PBXProject "StreamKit-UI-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FB340B20DE0D12007E32A4 /* Debug */,
+				C9FB340C20DE0D12007E32A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9FB340D20DE0D12007E32A4 /* Build configuration list for PBXNativeTarget "StreamKit-UI-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FB340E20DE0D12007E32A4 /* Debug */,
+				C9FB340F20DE0D12007E32A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9FB33EF20DE0D0E007E32A4 /* Project object */;
+}
