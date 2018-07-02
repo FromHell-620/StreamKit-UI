@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "StreamKit-UI"
-  s.version      = "1.3"
+  s.version      = "1.4"
   s.summary      = "StreamKit chain block"
   s.homepage     = "https://github.com/FromHell-620/StreamKit-UI"
   s.license      = "MIT"

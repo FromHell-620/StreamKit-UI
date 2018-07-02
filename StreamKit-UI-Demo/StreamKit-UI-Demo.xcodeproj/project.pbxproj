@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		886176CC20EA07D300D71CF4 /* UIControl+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 886176CB20EA07D300D71CF4 /* UIControl+StreamKit.m */; };
 		C9FB33FC20DE0D0E007E32A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB33FB20DE0D0E007E32A4 /* AppDelegate.m */; };
 		C9FB33FF20DE0D0E007E32A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB33FE20DE0D0E007E32A4 /* ViewController.m */; };
 		C9FB340220DE0D0E007E32A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9FB340020DE0D0E007E32A4 /* Main.storyboard */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		886176CA20EA07D300D71CF4 /* UIControl+StreamKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+StreamKit.h"; sourceTree = "<group>"; };
+		886176CB20EA07D300D71CF4 /* UIControl+StreamKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+StreamKit.m"; sourceTree = "<group>"; };
 		C9FB33F720DE0D0E007E32A4 /* StreamKit-UI-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StreamKit-UI-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FB33FA20DE0D0E007E32A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9FB33FB20DE0D0E007E32A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 				C9FB342820DE0D87007E32A4 /* UILabel+StreamKit.m */,
 				C9FB342B20DE0D87007E32A4 /* UIImageView+StreamKit.h */,
 				C9FB342020DE0D87007E32A4 /* UIImageView+StreamKit.m */,
+				886176CA20EA07D300D71CF4 /* UIControl+StreamKit.h */,
+				886176CB20EA07D300D71CF4 /* UIControl+StreamKit.m */,
 				C9FB342D20DE0D87007E32A4 /* UIButton+StreamKit.h */,
 				C9FB342420DE0D87007E32A4 /* UIButton+StreamKit.m */,
 				C9FB341E20DE0D87007E32A4 /* UITextField+StreamKit.h */,
@@ -204,6 +209,7 @@
 				C9FB33FC20DE0D0E007E32A4 /* AppDelegate.m in Sources */,
 				C9FB343A20DE0D87007E32A4 /* UILabel+StreamKit.m in Sources */,
 				C9FB343520DE0D87007E32A4 /* UIImageView+StreamKit.m in Sources */,
+				886176CC20EA07D300D71CF4 /* UIControl+StreamKit.m in Sources */,
 				C9FB343020DE0D87007E32A4 /* UIScrollView+StreamKit.m in Sources */,
 				C9FB343120DE0D87007E32A4 /* UICollectionView+StreamKit.m in Sources */,
 				C9FB343820DE0D87007E32A4 /* UITextField+StreamKit.m in Sources */,
