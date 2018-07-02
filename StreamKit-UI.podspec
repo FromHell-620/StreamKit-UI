@@ -8,8 +8,7 @@ Pod::Spec.new do |s|
   s.author             = { "GodL" => "547188371@qq.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/FromHell-620/StreamKit-UI.git", :tag => s.version.to_s }
-s.source_files  = "StreamKit-UI/*.{h,m}"
-  s.public_header_files = 'StreamKit-UI/StreamKit-UI.h'
+  s.source_files  = "StreamKit-UI/*"
   s.framework  = "UIKit"
   s.requires_arc = true
 end
