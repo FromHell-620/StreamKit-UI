@@ -66,15 +66,9 @@
 
 - (UITextField* (^)(BOOL highlighted))sk_highlighted;
 
-- (UITextField* (^)(UIControlContentVerticalAlignment contentVerticalAlignment))lm_contentVerticalAlignment;
+- (UITextField* (^)(UIControlContentVerticalAlignment contentVerticalAlignment))sk_contentVerticalAlignment;
 
-- (UITextField* (^)(UIControlContentHorizontalAlignment contentHorizontalAlignment))lm_contentHorizontalAlignment;
-
-- (UITextField* (^)(UIControlEvents controlEvents,void(^block)(__kindof UITextField* target)))sk_addEventBlock;
-
-- (UITextField* (^)(UIControlEvents controlEvents))sk_removeEventBlock;
-
-- (UITextField* (^)(void))sk_removeAllEventBlock;
+- (UITextField* (^)(UIControlContentHorizontalAlignment contentHorizontalAlignment))sk_contentHorizontalAlignment;
 
 @end
 

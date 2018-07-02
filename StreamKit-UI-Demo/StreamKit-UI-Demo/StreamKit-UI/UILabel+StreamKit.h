@@ -59,14 +59,6 @@
 
 - (UILabel* (^)(UIColor* tintColor))sk_tintColor;
 
-- (UILabel* (^)(UIGestureRecognizer* gestureRecognizers))sk_addGestureRecognizer;
-
-- (UILabel* (^)(UIGestureRecognizer* gestureRecognizers))sk_removeGestureRecognizer;
-
-- (UILabel* (^)(dispatch_block_t block))sk_addSimpleClickAction;
-
-- (UILabel* (^)(void(^block)(__kindof UIView* view)))sk_addParamClickAction;
-
 @end
 
 @interface UILabel (StreamKit)

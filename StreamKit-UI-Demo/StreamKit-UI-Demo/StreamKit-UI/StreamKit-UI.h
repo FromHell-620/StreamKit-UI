@@ -12,6 +12,7 @@
 #import "UIView+StreamKit.h"
 #import "UILabel+StreamKit.h"
 #import "UIImageView+StreamKit.h"
+#import "UIControl+StreamKit.h"
 #import "UIButton+StreamKit.h"
 #import "UITextField+StreamKit.h"
 #import "UITableView+StreamKit.h"

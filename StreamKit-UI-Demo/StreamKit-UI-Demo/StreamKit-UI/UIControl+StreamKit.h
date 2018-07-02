@@ -40,7 +40,7 @@
  self.sk_contentVerticalAlignment(contentVerticalAlignment);
  @endcode
  */
-- (UIControl* (^)(UIControlContentVerticalAlignment contentVerticalAlignment))lm_contentVerticalAlignment;
+- (UIControl* (^)(UIControlContentVerticalAlignment contentVerticalAlignment))sk_contentVerticalAlignment;
 
 /**
  Set contentHorizontalAlignment.
@@ -48,34 +48,6 @@
  self.sk_contentHorizontalAlignment(contentHorizontalAlignment);
  @endcode
  */
-- (UIControl* (^)(UIControlContentHorizontalAlignment contentHorizontalAlignment))lm_contentHorizontalAlignment;
-
-/**
- Adds an event block to the control.
- @code
- self.sk_addEventBlock(controlEvents,^(UIControl* control){
-    your code;
- });
- @endcode
- @return a block which receive a controlEvents and a event block.
-         the event block is invoked when the action message is sent.
- */
-- (UIControl* (^)(UIControlEvents controlEvents,void(^block)(__kindof UIControl* target)))sk_addEventBlock;
-
-/**
- Remove the event block by the given controlEvents.
- @code
- self.sk_removeEventBlock(controlEvents);
- @endcode
- */
-- (UIControl* (^)(UIControlEvents controlEvents))sk_removeEventBlock;
-
-/**
- Remove all event blocks of the control.
- @code
- self.sk_removeAllEventBlock();
- @endcode
- */
-- (UIControl* (^)())sk_removeAllEventBlock;
+- (UIControl* (^)(UIControlContentHorizontalAlignment contentHorizontalAlignment))sk_contentHorizontalAlignment;
 
 @end

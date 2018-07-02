@@ -59,14 +59,6 @@
 
 - (UIImageView* (^)(UIColor* tintColor))sk_tintColor;
 
-- (UIImageView* (^)(UIGestureRecognizer* gestureRecognizers))sk_addGestureRecognizer;
-
-- (UIImageView* (^)(UIGestureRecognizer* gestureRecognizers))sk_removeGestureRecognizer;
-
-- (UIImageView* (^)(dispatch_block_t block))sk_addSimpleClickAction;
-
-- (UIImageView* (^)(void(^block)(__kindof UIView* view)))sk_addParamClickAction;
-
 @end
 
 @interface UIImageView (StreamKit)

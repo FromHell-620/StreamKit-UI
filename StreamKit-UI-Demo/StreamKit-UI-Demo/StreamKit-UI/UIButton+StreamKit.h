@@ -66,15 +66,9 @@
 
 - (UIButton* (^)(BOOL highlighted))sk_highlighted;
 
-- (UIButton* (^)(UIControlContentVerticalAlignment contentVerticalAlignment))lm_contentVerticalAlignment;
+- (UIButton* (^)(UIControlContentVerticalAlignment contentVerticalAlignment))sk_contentVerticalAlignment;
 
-- (UIButton* (^)(UIControlContentHorizontalAlignment contentHorizontalAlignment))lm_contentHorizontalAlignment;
-
-- (UIButton* (^)(UIControlEvents controlEvents,void(^block)(__kindof UIButton* target)))sk_addEventBlock;
-
-- (UIButton* (^)(UIControlEvents controlEvents))sk_removeEventBlock;
-
-- (UIButton* (^)(void))sk_removeAllEventBlock;
+- (UIButton* (^)(UIControlContentHorizontalAlignment contentHorizontalAlignment))sk_contentHorizontalAlignment;
 
 @end
 
