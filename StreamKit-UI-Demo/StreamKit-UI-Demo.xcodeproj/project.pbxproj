@@ -104,15 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				C9FB343D20DE0EEC007E32A4 /* StreamKit-UI.h */,
-				C9FB341120DE0D87007E32A4 /* UIScrollView */,
-				C9FB341A20DE0D87007E32A4 /* UIView */,
-			);
-			path = "StreamKit-UI";
-			sourceTree = "<group>";
-		};
-		C9FB341120DE0D87007E32A4 /* UIScrollView */ = {
-			isa = PBXGroup;
-			children = (
 				C9FB341520DE0D87007E32A4 /* UITableView+StreamKit.h */,
 				C9FB341820DE0D87007E32A4 /* UITableView+StreamKit.m */,
 				C9FB341620DE0D87007E32A4 /* UIScrollView+StreamKit.h */,
@@ -121,13 +112,6 @@
 				C9FB341220DE0D87007E32A4 /* UITextView+StreamKit.m */,
 				C9FB341920DE0D87007E32A4 /* UICollectionView+StreamKit.h */,
 				C9FB341420DE0D87007E32A4 /* UICollectionView+StreamKit.m */,
-			);
-			path = UIScrollView;
-			sourceTree = "<group>";
-		};
-		C9FB341A20DE0D87007E32A4 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
 				C9FB342E20DE0D87007E32A4 /* UIView+StreamKit.h */,
 				C9FB342320DE0D87007E32A4 /* UIView+StreamKit.m */,
 				C9FB341D20DE0D87007E32A4 /* UILabel+StreamKit.h */,
@@ -139,7 +123,7 @@
 				C9FB341E20DE0D87007E32A4 /* UITextField+StreamKit.h */,
 				C9FB342620DE0D87007E32A4 /* UITextField+StreamKit.m */,
 			);
-			path = UIView;
+			path = "StreamKit-UI";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

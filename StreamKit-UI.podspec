@@ -13,13 +13,4 @@ Pod::Spec.new do |s|
   s.framework  = "UIKit"
   s.requires_arc = true
 
-  s.subspec 'UIView' do |ss|
-  ss.source_files = 'StreamKit-UI/UIView/*.{h,m}'
-  end
-
-  s.subspec 'UIScrollView' do |ss|
-  ss.dependency 'StreamKit/UIView'
-  ss.source_files = 'StreamKit-UI/UIScrollView/*.{h,m}'
-  end
-
 end
